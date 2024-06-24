@@ -1,0 +1,175 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+
+
+H1,H2 {
+    text-align: center;
+    font-family:arial;
+    color:Navy;
+}
+
+
+@media (min-width: 480px) {
+    H1 {
+        font-size:300%;
+    }
+}
+
+
+/*a.header:link    {color:#FF0000;}      /* unvisited link */
+/*a.header:visited {color:#00FF00;}      /* visited link */
+a.header:hover   {color:#FF00FF;}      /* mouse over link */
+a.header:active  {color:#0000FF;}      /* selected link */
+
+
+TH {
+  padding: 5px;
+}
+
+table {
+    margin: 0 auto;
+    text-align: inherit;
+    /*float: none;*/
+}
+
+table.center {
+    margin: 0 auto;
+    text-align: inherit;
+    float: none;
+}
+
+table.center_bordered {
+    margin: 0 auto;
+    text-align: inherit;
+    border: 0px;
+    float: none;
+    background-color: Thistle;
+}
+
+table.float_right {
+    margin: 0 auto;
+    text-align: inherit;
+}
+
+table.menu_bar {
+    background-color: Gainsboro;
+    border: 0px;
+    text-align: center;
+}
+
+table.menu_bar_inline {
+    background-color: Gainsboro;
+    border: 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+td.padd_6px { 
+    padding: 6px;
+}
+    
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+}
+
+.float_right {
+    margin: 0 auto;
+    float: right;
+}
+
+div.highz 
+{
+/*  position: fixed;
+  width: 120px;
+  height: 600px;
+  right: 0%;
+  top: 0%;
+  */
+}
+
+
+
+
+.center_xxlarge_font {
+    font-size:xx-large;
+    text-align: center;
+}
+
+.center_300_Navy {
+    font-size:300%;
+    text-align: center;
+    color:Navy;
+}
+
+.center_200_Navy {
+    font-size:200%;
+    text-align: center;
+    color:Navy;
+}
+
+.center_300_Yellow {
+    font-size:300%;
+    text-align: center;
+     background-color:yellow;
+}
+
+
+.left_green {
+    text-align: left;
+    color: Green;
+}
+
+img.noborder {
+    border: 0px;
+}
+
+form.debug {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    /* width: 400px; */
+    display: table;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+
+form.search {
+        display: inline-block;
+        vertical-align: top;
+        border: 1px solid #CCC;
+        padding: 1px;
+    /* Just to center the form on the page */
+    margin: 0 auto;
+}
+
+
+input[type="text"] {
+  padding: 3px;
+}
+
+input[type="tel"] {
+  padding: 3px;
+}
+
+input, textarea ,select {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+    padding: 3px;
+
+    /* To give the same size to all text field */
+    /*width: 300px;*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+}
+
